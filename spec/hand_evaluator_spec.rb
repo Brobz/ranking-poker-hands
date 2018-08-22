@@ -1,5 +1,5 @@
-require "spec_helper"
-require "hand_evaluator"
+require_relative "spec_helper"
+require_relative "../lib/hand_evaluator"
 
 describe HandEvaluator do
   describe "#return_stronger_hand" do
